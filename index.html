@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Gaze</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/Images/favicon.jpeg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="search flex">
+            <label for="cityName"></label>
+            <input  type="text" name="cityName" id="cityName" placeholder="enter city name" autofocus  >
+            <button class="flex"><i class="fa-solid fa-magnifying-glass custom-size"></i></button>    
+        </div>
+        <div class="error">
+            Invalid city name
+        </div>
+        <div class="weather">
+            <img src="Images/clear.png" alt="clear" class="weather-image">
+            <h1 class="temp">22 &degC</h1>
+            <h3 class="city">Delhi</h3>
+            <div class="details flex">
+                <div class="col flex">
+                    <img src="Images/humidity.png" alt="Humidity">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p class= "col-text">Humidity</p>
+                </div>
+    
+                </div>
+                <div class="col flex">
+                    <img src="Images/wind.png" alt="Wind">
+                    <div>
+                        <p class="wind">22km/hr</p>
+                        <p class="col-text">Wind Speed</p>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/91265c310e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

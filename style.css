@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    
+}
+
+/* utility class*/
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background: #18181b;
+}
+/*container*/
+
+.container{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #222;
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* search bar section  */
+.search{
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.search input{
+    border: 0;
+    border-radius: 30px;
+    outline: 0;
+    background: #ebfffc;
+    padding: 10px 25px;
+    height: 60px;
+    font-size: 1.1rem;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.search button{
+    border: 0;
+    background: #ebfffc;
+    outline: 0;
+    border-radius: 50%;
+    padding: 10px 20px;
+    height: 60px;
+    width: 60px;
+    cursor:pointer;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.custom-size{
+    font-size: 18px ;
+}
+
+ /* weather-section */
+ .weather{
+    margin:10px;
+ }
+
+ .weather img{
+    width: 172px;
+ }
+
+ .temp{
+    font-size: 5rem;
+    color: #ebfffc;
+ }
+
+ .city{
+    font-size: 3.75rem;
+    color: #ebfffc;
+    margin-top: -15px;
+ }
+
+ /* details section  */
+.details{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.col{
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 1.75 rem;
+}
+
+.weather{
+    display: none;
+}
+
+/* error section */
+.error{
+    color: #ebfffc;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+    display: none;
+}
